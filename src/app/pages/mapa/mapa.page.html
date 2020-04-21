@@ -1,0 +1,22 @@
+<app-menu></app-menu>
+<ion-router-outlet id="main"></ion-router-outlet>
+
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Mapa</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div id="map"></div>
+</ion-content>
+
+<ion-footer no-border>
+  <ion-toolbar >
+   <ion-button color="primary" expand="block" (click)="infVeiculo($event)">Informacion Del Vehiculo</ion-button>
+   <ion-button color="primary" expand="block" (click)="infConductor()">Informacion Del Conductor </ion-button>
+  </ion-toolbar>
+</ion-footer>

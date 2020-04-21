@@ -1,0 +1,146 @@
+[
+    {
+        "parada":"(A)-Club Cafam",
+        "position": {
+            "lat":4.791213,
+            "lng":-74.040242
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(B)-Escuela De Ingenieros",
+        "position": {
+            "lat":4.783659,
+            "lng":-74.041487
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(C)-Club El Rancho",
+        "position": {
+            "lat":4.772364,
+            "lng":-74.043381
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(D)-Portal Norte",
+        "position": {
+            "lat":4.754895,
+            "lng":-74.046471
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(E)-AV.Boyacá-AC 170",
+        "position": {
+            "lat":4.759575,
+            "lng":-74.066442
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(F)-AV.Boyacá-AC 153",
+        "position": {
+            "lat":4.743879,
+            "lng":-74.065304
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(G)-AV.Boyacá-Av.Suba",
+        "position": {
+            "lat":4.723860,
+            "lng":-74.073368
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(H)-AV.Boyacá-Cl 128",
+        "position": {
+            "lat":4.715329,
+            "lng":-74.076641
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(I)-AV.Boyacá-AC 80",
+        "position": {
+            "lat":4.696311,
+            "lng":-74.087117
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(J)-AV.Boyacá-AC 72",
+        "position": {
+            "lat":4.687671,
+            "lng":-74.095089
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(K)-C.C. Los Tres Elefantes ",
+        "position": {
+            "lat":4.658946,
+            "lng":-74.118532
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(L)-AV.Boyacá-CL 12",
+        "position": {
+            "lat":4.646296,
+            "lng":-74.130881
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(M)-AV.Boyacá-CL 2",
+        "position": {
+            "lat":4.623712,
+            "lng":-74.138759
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(N)-AV.Boyacá-AV.1 de Mayo",
+        "position": {
+            "lat":4.617840,
+            "lng":-74.140016
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(O)-AV.J.Gaitan C.-AV.V/cio",
+        "position": {
+            "lat":4.580938,
+            "lng":-74.155650
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(P)-AV.V/cio-KR 44C",
+        "position": {
+            "lat":4.574444,
+            "lng":-74.154139
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(Q)-KR 20C-CL 67 Sur",
+        "position": {
+            "lat":4.562786,
+            "lng":-74.149756
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(R)-Alborizadora Alta",
+        "position": {
+            "lat":4.566744,
+            "lng":-74.156586
+        },
+        "stopover": true
+    }
+]

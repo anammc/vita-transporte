@@ -1,0 +1,62 @@
+[
+    {
+        "tipo_servicio":"Urbano",
+        "ruta_comercial":"165",
+        "origen_destino":"Arborizadora Alta - Jardines Del Recuerdo",
+        "vehiculo": {
+            "placa":"ASD573",
+            "asientos_ocupados":"15",
+            "asientos_desocupados":"10",
+            "estado":"activo"
+        },
+        "conductor": {
+            "codigo":"a236",
+            "nombre":"Luis Perez"
+        }
+    },
+    {
+        "tipo_servicio":"Urbano",
+        "ruta_comercial":"T43A",
+        "origen_destino":"Museo Nacional - Gaviotas",
+        "vehiculo": {
+            "placa":"XDF963",
+            "asientos_ocupados":"0",
+            "asientos_desocupados":"25",
+            "estado":"varado"
+        },
+        "conductor": {
+            "codigo":"a486",
+            "nombre":"Juan Camargo"
+        }
+    },
+    {
+        "tipo_servicio":"Urbano",
+        "ruta_comercial":"112B",
+        "origen_destino":"Bachué - Centro Internacional",
+        "vehiculo": {
+            "placa":"JHT783",
+            "asientos_ocupados":"20",
+            "asientos_desocupados":"5",
+            "estado":"activo"
+        },
+        "conductor": {
+            "codigo":"a612",
+            "nombre":"Lorena Gomez"
+        }
+    },
+    {
+        "tipo_servicio":"Urbano",
+        "ruta_comercial":"191",
+        "origen_destino":"Metrovivienda - Unicentro",
+        "vehiculo": {
+            "placa":"CGL467",
+            "asientos_ocupados":"18",
+            "asientos_desocupados":"7",
+            "estado":"activo"
+        },
+        "conductor": {
+            "codigo":"a175",
+            "nombre":"Carlos Lopez"
+        }
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "parada":"(A)-Patio Gaviotas",
+        "position": {
+            "lat":4.541216,
+            "lng":-74.093748
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(B)-San Blas II",
+        "position": {
+            "lat":4.564103,
+            "lng":-74.083781
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(C)-Calle Primera",
+        "position": {
+            "lat":4.582621,
+            "lng":-74.078937
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(D)-H. Centro Oriente Lourdes",
+        "position": {
+            "lat":4.589956,
+            "lng":-74.075124
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(E)-E. Museo Nacional",
+        "position": {
+            "lat":4.616182,
+            "lng":-74.068742
+        },
+        "stopover": true
+    }
+
+]

@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Paradas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let p of parada | async" >
+      <ion-icon slot="start" color="primary" name="location-outline"></ion-icon>
+        <ion-label>
+          <h2 id="num">{{p.parada}}</h2>
+        </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+<ion-footer no-border>
+  <ion-toolbar >
+   <ion-button color="primary" expand="block" (click)="getParada()">Ver Mapa</ion-button>
+  </ion-toolbar>
+</ion-footer>

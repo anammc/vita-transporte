@@ -1,0 +1,75 @@
+[
+    {
+        "parada":"(A)-Br. Ciudad Bachué I Etapa",
+        "position": {
+            "lat":4.716357,
+            "lng":-74.104392
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(B)-Avenida El Cortijo",
+        "position": {
+            "lat":4.722479,
+            "lng":-74.120290
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(C)-Gimnasio Moderno Montesoriano",
+        "position": {
+            "lat":4.712675,
+            "lng":-74.122648
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(D)-Br. Álamos",
+        "position": {
+            "lat":4.704823,
+            "lng":-74.117820
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(E)-Br. Santa Helenita",
+        "position": {
+            "lat":4.691634,
+            "lng":-74.100747
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(F)-Centro Comercial Mi Placita",
+        "position": {
+            "lat":4.674841,
+            "lng":-74.084319
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(G)-Br. El Campín",
+        "position": {
+            "lat":4.649250,
+            "lng":-74.072981
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(H)-Br. Palermo Ac 45",
+        "position": {
+            "lat":4.635087,
+            "lng":-74.075192
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(I)-Estación San Diego",
+        "position": {
+            "lat":4.611379,
+            "lng":-74.071075
+        },
+        "stopover": true
+    }
+
+]

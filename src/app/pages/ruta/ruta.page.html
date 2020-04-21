@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Rutas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let r of ruta | async" detail>
+      <ion-icon slot="start" color="primary" name="bus-outline"></ion-icon>
+        <ion-label class="ion-text-wrap" (click)="getRuta(r.ruta_comercial)">
+          <h2 id="num">{{r.ruta_comercial}}</h2>
+          <p id="texto">{{r.origen_destino}}</p>
+        </ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

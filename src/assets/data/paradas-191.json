@@ -1,0 +1,91 @@
+[
+    {
+        "parada":"(A)-Hotel Estelar La Fontana",
+        "position": {
+            "lat":4.704065,
+            "lng":-74.044012
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(B)-Parque Lineal Santa Bárbara",
+        "position": {
+            "lat":4.690826,
+            "lng":-74.039313
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(C)-Estación Simón Bolívar",
+        "position": {
+            "lat":4.658383,
+            "lng":-74.078103
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(D)-Estación Universidad Nacional",
+        "position": {
+            "lat":4.634808,
+            "lng":-74.079734
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(E)-Br. Centro Industrial",
+        "position": {
+            "lat":4.634471,
+            "lng":-74.114352
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(F)-Parque Deportivo Castilla",
+        "position": {
+            "lat":4.637543,
+            "lng":-74.139345
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(G)-Br. Bosques De Kennedy",
+        "position": {
+            "lat":4.621106,
+            "lng":-74.156164
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(H)-Colegio Distrital Alfonso López",
+        "position": {
+            "lat":4.608781,
+            "lng":-74.143739
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(I)-Br. Villa Del Río",
+        "position": {
+            "lat":4.599794,
+            "lng":-74.161184
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(J)-Br. La Paz",
+        "position": {
+            "lat":4.618205,
+            "lng":-74.188339
+        },
+        "stopover": true
+    },
+    {
+        "parada":"(K)-Br. Granja El Rinconcito",
+        "position": {
+            "lat":4.629096,
+            "lng":-74.202815
+        },
+        "stopover": true
+    }
+
+]

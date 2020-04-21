@@ -1,0 +1,36 @@
+<ion-content id="login">
+<form id="login" #formulario="ngForm" (ngSubmit)="onSubmitTemplate()">
+
+  <h1 id="titulo"> LOGIN </h1><br>
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="email"
+                 name="email"
+                 pattern="^([a-zA-Z0-9_\-\.]+)@([[a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+                 [(ngModel)]="usuario.email"
+                 required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password"
+                 name="password"
+                 [(ngModel)]="usuario.password"
+                 required></ion-input>
+    </ion-item><br>
+    <ion-button expand="block" id="boton" color="medium" type="submit"
+                [disabled]="formulario.invalid">
+                Sing In
+    </ion-button>
+</form>
+     
+    <br><br>
+    <ion-button expand="block" id="btnFacebook">
+                <ion-icon slot="start" name="logo-facebook"></ion-icon>
+                Sing In with Facebook
+    </ion-button><br>
+
+    <ion-button expand="block" id="btnGoogle" color="secondary">
+                <ion-icon slot="start" name="logo-google"></ion-icon>
+                Sing In with Google
+    </ion-button>
+</ion-content>
