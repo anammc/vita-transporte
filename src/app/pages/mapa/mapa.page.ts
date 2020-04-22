@@ -52,8 +52,7 @@ export class MapaPage implements OnInit {
     this.destination=null;
     this.datos=this.contenidoService.getRuta();
     this.numRuta=this.ruta.snapshot.paramMap.get('numRuta');
-//console.log(this.numRuta);
-console.log('subir',this.subir);
+// console.log('subir',this.subir);
     this.validar();
     this.loadMap();
   }
@@ -153,8 +152,8 @@ console.log('subir',this.subir);
     if (data != undefined) {
       this.subir=data['subir'];
      }
-    console.log('padre',data);
-    console.log('pa',this.subir);
+    // console.log('padre',data);
+    // console.log('pa',this.subir);
   }
 
   async infConductor(ev: any){

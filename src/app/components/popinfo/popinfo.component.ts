@@ -18,13 +18,13 @@ export class PopinfoComponent implements OnInit {
     ) { }
 
   ngOnInit() {
-    console.log(this.vehiculo);
-    console.log('subirA',this.subir);
+    // console.log(this.vehiculo);
+    // console.log('subirA',this.subir);
   }
 
   check(event : any){
     this.subir=event.detail.checked;
-    console.log(this.subir);
+    // console.log(this.subir);
     if (this.subir === true) {
       this.presentAlertConfirm();
     }
@@ -44,7 +44,7 @@ async presentAlertConfirm() {
           this.popoverCtrl.dismiss({
             subir:this.subir
           });
-          console.log('Confirm Cancel',this.subir);
+         // console.log('Confirm Cancel',this.subir);
         }
       }, {
         text: 'Okay',
@@ -53,7 +53,7 @@ async presentAlertConfirm() {
           this.popoverCtrl.dismiss({
             subir:this.subir
           });
-          console.log('Confirm Okay',this.subir);
+         // console.log('Confirm Okay',this.subir);
         }
       }
     ]

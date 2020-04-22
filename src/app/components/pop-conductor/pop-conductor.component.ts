@@ -12,7 +12,7 @@ export class PopConductorComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.conductor);
+    // console.log(this.conductor);
   }
 
 }
