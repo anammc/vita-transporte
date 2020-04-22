@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { MapaPage } from './mapa.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 import { PopinfoComponent } from 'src/app/components/popinfo/popinfo.component';
+import { PopConductorComponent } from 'src/app/components/pop-conductor/pop-conductor.component';
 
 const routes: Routes = [
   {
@@ -14,7 +15,8 @@ const routes: Routes = [
 
 @NgModule({
   entryComponents:[
-    PopinfoComponent
+    PopinfoComponent,
+    PopConductorComponent
   ],
   imports: [
     RouterModule.forChild(routes)

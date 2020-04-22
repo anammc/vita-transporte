@@ -4,14 +4,17 @@
         "ruta_comercial":"165",
         "origen_destino":"Arborizadora Alta - Jardines Del Recuerdo",
         "vehiculo": {
+            "tiempo":"00:15:45",
             "placa":"ASD573",
-            "asientos_ocupados":"15",
-            "asientos_desocupados":"10",
+            "asientos_totales":"80",
+            "asientos_ocupados":"50",
+            "asientos_desocupados":"30",
             "estado":"activo"
         },
         "conductor": {
             "codigo":"a236",
-            "nombre":"Luis Perez"
+            "nombre":"Luis Perez",
+            "empresa":"Masivo Capital"
         }
     },
     {
@@ -19,14 +22,17 @@
         "ruta_comercial":"T43A",
         "origen_destino":"Museo Nacional - Gaviotas",
         "vehiculo": {
+            "tiempo":"00:50:10",
             "placa":"XDF963",
-            "asientos_ocupados":"0",
-            "asientos_desocupados":"25",
+            "asientos_totales":"40",
+            "asientos_ocupados":"19",
+            "asientos_desocupados":"21",
             "estado":"varado"
         },
         "conductor": {
             "codigo":"a486",
-            "nombre":"Juan Camargo"
+            "nombre":"Juan Camargo",
+            "empresa":"Suma"
         }
     },
     {
@@ -34,14 +40,17 @@
         "ruta_comercial":"112B",
         "origen_destino":"Bachué - Centro Internacional",
         "vehiculo": {
+            "tiempo":"00:10:30",
             "placa":"JHT783",
-            "asientos_ocupados":"20",
-            "asientos_desocupados":"5",
+            "asientos_totales":"40",
+            "asientos_ocupados":"23",
+            "asientos_desocupados":"17",
             "estado":"activo"
         },
         "conductor": {
             "codigo":"a612",
-            "nombre":"Lorena Gomez"
+            "nombre":"Lorena Gomez",
+            "empresa":"Trancit"
         }
     },
     {
@@ -49,14 +58,17 @@
         "ruta_comercial":"191",
         "origen_destino":"Metrovivienda - Unicentro",
         "vehiculo": {
+            "tiempo":"00:22:38",
             "placa":"CGL467",
-            "asientos_ocupados":"18",
-            "asientos_desocupados":"7",
+            "asientos_totales":"50",
+            "asientos_ocupados":"33",
+            "asientos_desocupados":"17",
             "estado":"activo"
         },
         "conductor": {
             "codigo":"a175",
-            "nombre":"Carlos Lopez"
+            "nombre":"Carlos Lopez",
+            "empresa":"Recaudo"
         }
     }
 ]

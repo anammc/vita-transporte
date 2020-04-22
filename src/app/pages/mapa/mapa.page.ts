@@ -3,12 +3,13 @@ import { MenuController } from '@ionic/angular';
 import { parada } from 'src/app/interfaces/parada-interfaces';
 import { Observable} from 'rxjs';
 import { ContenidoService } from 'src/app/services/contenido.service';
-import { AlertController } from '@ionic/angular';
+// import { AlertController } from '@ionic/angular';
 import { rutas } from 'src/app/interfaces/ruta-interfaces';
 import {ActivatedRoute} from '@angular/router';
 import { PopoverController } from '@ionic/angular';
 import { PopinfoComponent } from 'src/app/components/popinfo/popinfo.component';
 import { WayPoint } from 'src/app/interfaces/wayPoint';
+import { PopConductorComponent } from 'src/app/components/pop-conductor/pop-conductor.component';
 
 
 
@@ -33,13 +34,14 @@ export class MapaPage implements OnInit {
   dato: any;
   origin: any;
   destination: any;
+  subir=false;
   
   wayPoints:WayPoint[];
 
   constructor(
      private menuCtrl: MenuController,
      private contenidoService: ContenidoService,
-     public alertController: AlertController,
+    //  public alertController: AlertController,
      public ruta: ActivatedRoute,
      public popoverController: PopoverController
   ) { }
@@ -51,13 +53,11 @@ export class MapaPage implements OnInit {
     this.datos=this.contenidoService.getRuta();
     this.numRuta=this.ruta.snapshot.paramMap.get('numRuta');
 //console.log(this.numRuta);
+console.log('subir',this.subir);
     this.validar();
     this.loadMap();
   }
 
-  toggleMenu(){
-    this.menuCtrl.toggle();
-  }
 
   validar(){
     this.datos.forEach(element => {
@@ -110,7 +110,6 @@ export class MapaPage implements OnInit {
 
   puntos(){
     this.markers.forEach(element => {
-       //console.log(element);
        this.origin=element.shift()['position'];
        this.destination=element.pop()['position'];   
       for (const iterator of element) {
@@ -119,7 +118,6 @@ export class MapaPage implements OnInit {
         stopover:iterator['stopover']
        })
       }
-       //console.log(this.wayPoints);
     });
   }
 
@@ -143,23 +141,33 @@ export class MapaPage implements OnInit {
     const popover = await this.popoverController.create({
       component: PopinfoComponent,
       componentProps: {
-        vehiculo:this.vehiculo
+        vehiculo:this.vehiculo,
+        subir:this.subir
+      },
+        event: ev,
+        mode:'ios'
+    });
+     await popover.present();
+
+    const {data}= await popover.onDidDismiss();
+    if (data != undefined) {
+      this.subir=data['subir'];
+     }
+    console.log('padre',data);
+    console.log('pa',this.subir);
+  }
+
+  async infConductor(ev: any){
+    const popover = await this.popoverController.create({
+      component: PopConductorComponent,
+      componentProps: {
+        conductor:this.conductor
       },
         event: ev,
         mode:'ios'
     });
     return await popover.present();
-  }
 
-  async infConductor(){
-    const alert = await this.alertController.create({
-      header: 'Conductor',
-      subHeader: 'Codigo: '+this.conductor['codigo'],
-      message: 'Nombre: '+this.conductor['nombre'],
-      buttons: ['OK']
-    });
-
-    await alert.present();
   }
 
 }
