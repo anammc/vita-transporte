@@ -32,7 +32,7 @@ export class PopinfoComponent implements OnInit {
 
 async presentAlertConfirm() {
   const alert = await this.alertController.create({
-    header: 'El vehiculo se encuentra Aprox en',
+    header: 'Vehiculo cercano, se encuentra a: ',
     message: this.vehiculo['tiempo']+' Minutos',
     buttons: [
       {
